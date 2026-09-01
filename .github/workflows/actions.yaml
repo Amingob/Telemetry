@@ -26,7 +26,7 @@ jobs:
           java-version: 21
       #Run: mvn test
       - name: Run tests with maven
-        working-directory: pom.xml
+        working-directory: /home/runner/work/Telemetry/Telemetry
         run: mvn test
         #Handle remote server chromedriver
 
